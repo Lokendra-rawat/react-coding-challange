@@ -2,7 +2,6 @@
 import { NavLink, Route, Switch } from "react-router-dom";
 
 import AboutPage from "./AboutPage";
-import FuelSavingsPage from "./containers/FuelSavingsPage";
 import HomePage from "./HomePage";
 import NotFoundPage from "./NotFoundPage";
 import PropTypes from "prop-types";
@@ -18,16 +17,15 @@ class App extends React.Component {
     const activeStyle = { color: 'blue' };
     return (
       <div>
-        <div>
+        <div style={{
+          padding: '20px 0',
+        }}>
           <NavLink exact to="/" activeStyle={activeStyle}>Home</NavLink>
           {' | '}
-          <NavLink to="/fuel-savings" activeStyle={activeStyle}>Demo App</NavLink>
-          {' | '}
-          <NavLink to="/about" activeStyle={activeStyle}>About</NavLink>
+          <NavLink to="/about" activeStyle={activeStyle}>About CityMall</NavLink>
         </div>
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route path="/fuel-savings" component={FuelSavingsPage} />
           <Route path="/about" component={AboutPage} />
           <Route component={NotFoundPage} />
         </Switch>

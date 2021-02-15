@@ -1,6 +1,7 @@
 /* Variables */
 $vin-blue: #5bb7db;
 $vin-green: #60b044;
+$citymall-red: #F63854;
 $vin-red: #ff0000;
 
 /* Styles */
@@ -21,8 +22,17 @@ td {
 	padding: 12px;
 }
 
+h1{
+  color: $citymall-red;
+}
+
 h2 {
-	color: $vin-blue;
+	color: $citymall-red;
+}
+
+a{
+  color: black;
+  font-size: 14px;
 }
 
 .savings { color: $vin-green; }

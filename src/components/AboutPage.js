@@ -6,13 +6,9 @@ import '../styles/about-page.css';
 const AboutPage = () => {
   return (
     <div>
-      <h2 className="alt-header">About</h2>
+      <h1>About us</h1>
       <p>
-        This example app is part of the <a href="https://github.com/coryhouse/react-slingshot">React-Slingshot
-        starter kit</a>.
-      </p>
-      <p>
-        <Link to="/badlink">Click this bad link</Link> to see the 404 page.
+        CityMall is a social e-commerce venture, backed by Elevation Capital, aiming to help the 200-300 million new to Internet users realize the power of Internet and e-commerce. CityMall has a vision to create India’s largest chain of virtual stores on WhatsApp. Through a network of neighbourhood community leaders, CityMall enables Bharat to experience the convenience of online commerce. Founded by IIT Delhi and IIT Roorkee alumni with 8+ years of entrepreneurial experience, CityMall aims to create several thousands of such micro-entrepreneurs and empower them to create the go-to e-commerce platform for Bharat.
       </p>
     </div>
   );
