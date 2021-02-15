@@ -17,12 +17,16 @@ class App extends React.Component {
     const activeStyle = { color: 'blue' };
     return (
       <div>
+        <img style={{
+          padding: '20px 0',
+        }} src="https://citymall.live/assets/img/logo.png" />
+
         <div style={{
           padding: '20px 0',
         }}>
           <NavLink exact to="/" activeStyle={activeStyle}>Home</NavLink>
           {' | '}
-          <NavLink to="/about" activeStyle={activeStyle}>About CityMall</NavLink>
+          <NavLink to="/about" activeStyle={activeStyle}>About Us</NavLink>
         </div>
         <Switch>
           <Route exact path="/" component={HomePage} />
