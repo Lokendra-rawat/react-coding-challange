@@ -32,7 +32,7 @@ Your app should be able to complete the following tasks:
 * Should be able to edit the markdown text
 * Should be able to see how markdown is going to look like
 * Should support all main markdown syntex as pointed below
-* Should be done withoud using any external dependencies
+* Should be done without using any external dependencies
 * Should be done with proper unit test cases
 * Design is secondary functionality is important
 
