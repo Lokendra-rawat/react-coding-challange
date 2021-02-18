@@ -2,8 +2,41 @@
 
 ![alt text](https://citymall.live/assets/img/logo.png)
 
+React Js - Coding Challenge
 
-# Should support following markdown things
+CityMall is looking for people who can build awesome products, so we created this challenge to test our candidates' overall developer skills.
+
+## Instructions
+#### 1. Build your app
+You have 5 days to complete the challenge.
+
+Implementation and design will be evaluated.
+#### 2. Submit your challenge
+Follow these instructions to submit your challenge.
+
+* Fork the challange repo (https://github.com/Lokendra-rawat/react-coding-challange)
+* Install the dependencies and start the server
+* Write your Code
+* Commit your Changes
+* Issue a Pull Request
+
+
+#### 3. Impress us with your skills
+
+## Challenge
+You have to crate a markdown editor similar if not familier take a look (https://guides.github.com/features/mastering-markdown/). It should be divided into two sections one where user can write markdown and other where he can see what it's going to look like. 
+
+
+## Requirements
+Your app should be able to complete the following tasks:
+* Should be able to edit the markdown text
+* Should be able to see how markdown is going to look like
+* Should support all main markdown syntex as pointed below
+* Should be done withoud using any external dependencies
+* Should be done with proper unit test cases
+* Design is secondary functionality is important
+
+## Should support following markdown things
 
 ## Headings:
 ## H2
