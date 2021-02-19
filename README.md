@@ -24,7 +24,7 @@ Follow these instructions to submit your challenge.
 #### 3. Impress us with your skills
 
 ## Challenge
-You have to crate a markdown editor similar if not familier take a look (https://guides.github.com/features/mastering-markdown/). It should be divided into two sections one where user can write markdown and other where he can see what it's going to look like. 
+You have to crate a markdown editor if not familier take a look (https://guides.github.com/features/mastering-markdown/). It should be divided into two sections one where user can write markdown and other where he can see what it's going to look like. 
 
 
 ## Requirements
